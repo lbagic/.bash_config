@@ -20,4 +20,4 @@ alias lfr="ls -alFR | grep"
 
 alias restart="exec bash"
 
-echo 'base: ~~, C, D, c, e, q, cl, h, hcl, hf, l, ll, la, lr, lf, lfr, restart'
+echo 'base: ~~, C, D, c, e, q, cl, h, hcl, hf, l, ll, lr, lf, lfr, restart'

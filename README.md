@@ -4,7 +4,10 @@ Run the following command with proper cfg path
 
 ```bash
 echo "
-cfg=\"/mnt/d/workspace/bash.config\"
+ws=\"/mnt/d/workspace\"
+cfg=\"\${ws}/bash.config\"
+alias ws=\"cd \${ws}\"
+alias cfg=\"cd \${cfg}\"
 
 if [ -d \"\${cfg}/inject\" ] ; then
 	echo \"Injecting config...\"

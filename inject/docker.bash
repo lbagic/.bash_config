@@ -1,3 +1,4 @@
+#!/bin/bash
 alias dimages="docker image ls"
 alias dps="docker ps"
 alias dpsa="docker ps -a"

@@ -1,6 +1,7 @@
 # Installation
 
-Run the following command with proper cfg path
+Run the following command with proper cfg path.
+Run "apt update", "apt install nodejs" & "code" to install dependencies.
 
 ```bash
 echo "

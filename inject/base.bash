@@ -1,4 +1,5 @@
 #!/bin/bash
+alias ~~="cd ~"
 alias C="cd /mnt/c"
 alias D="cd /mnt/d"
 
@@ -21,4 +22,4 @@ alias restart="exec bash"
 
 # alias hosts="code C:/Windows/System32/drivers/etc/hosts"
 
-echo 'base: C, D, c, e, q, cl, h, hcl, hf, l, ll, la, lr, lf, lfr, restart'
+echo 'base: ~~, C, D, c, e, q, cl, h, hcl, hf, l, ll, la, lr, lf, lfr, restart'

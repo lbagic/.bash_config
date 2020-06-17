@@ -1,7 +1,8 @@
 #!/bin/bash
-alias gadd="git add ."
-alias gcommit="git commit -m"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gs="git status"
 alias gpush="git push"
 alias gpull="gpull"
 
-echo 'git g add/commit/push/pull'
+echo 'git g a/c/s/push/pull'

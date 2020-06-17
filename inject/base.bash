@@ -20,6 +20,4 @@ alias lfr="ls -alFR | grep"
 
 alias restart="exec bash"
 
-# alias hosts="code C:/Windows/System32/drivers/etc/hosts"
-
 echo 'base: ~~, C, D, c, e, q, cl, h, hcl, hf, l, ll, la, lr, lf, lfr, restart'

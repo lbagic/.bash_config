@@ -5,8 +5,8 @@ Run "apt update", "apt install nodejs" & "code" to install dependencies.
 
 ```bash
 echo "
-ws=\"/mnt/d/workspace\"
-cfg=\"\${ws}/bash.config\"
+ws=\"~/workspace\"
+cfg=\"~/bash.config\"
 alias ws=\"cd \${ws}\"
 alias cfg=\"cd \${cfg}\"
 

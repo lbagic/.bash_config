@@ -8,7 +8,7 @@ echo "
 ws="/home/bax/workspace"
 cfg="/home/bax/bash.config"
 alias ws="cd ${ws}"
-alias cfg="cd ${cfg}"
+alias cfg="code ${cfg}"
 
 if [ -d "${cfg}/inject" ] ; then
     echo "Injecting config..."

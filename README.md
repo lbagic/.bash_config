@@ -6,7 +6,7 @@ Run "apt update", "apt install nodejs" & "code" to install dependencies.
 ```bash
 echo "
 ws="/home/bax/workspace"
-cfg="/home/bax/bash.config"
+cfg="/home/bax/.bash_config"
 alias ws="cd ${ws}"
 alias cfg="cd ${cfg}"
 

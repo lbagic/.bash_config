@@ -1,8 +1,8 @@
 #!/bin/bash
 pkg="${ws}/packages"
 alias pkg="cd ${pkg}"
-proj="${ws}/projects"
-alias proj="cd ${proj}"
+p="${ws}/projects"
+alias p="cd ${p}"
 s="${ws}/sintezis"
 alias s="cd ${s}"
 alias othalaapi="cd ${s}/othala/api.server.php"

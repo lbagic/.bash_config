@@ -5,4 +5,4 @@ alias gstatus="git status"
 alias gpush="git push"
 alias gpull="git pull"
 
-echo '(git) g [add, commit, status, push, pull]'
+echo 'git: g [add, commit, status, push, pull]'

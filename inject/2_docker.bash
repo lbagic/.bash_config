@@ -12,5 +12,4 @@ alias dbuild="docker build -t"
 alias dcreate="docker create"
 alias dcompose="docker-compose -f docker-compose.yml -f docker-compose.development.yml up"
 
-
-echo '(docker) d [images, ps, psa, start(all), stop(all), rm, build, create, compose]'
+echo 'docker: d [images, ps, psa, start(all), stop(all), rm, build, create, compose]'

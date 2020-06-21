@@ -6,6 +6,7 @@ alias D="cd /mnt/d"
 alias c="code ."
 alias e="explorer.exe ."
 alias q="exit"
+alias r="exec bash"
 alias cl="clear"
 
 alias h="history"
@@ -18,6 +19,5 @@ alias lr="ls -aFR"
 alias lf="ls -alF | grep"
 alias lfr="ls -alFR | grep"
 
-alias restart="exec bash"
 
-echo 'base: ~~, C, D, c, e, q, cl, h, hcl, hf, l, ll, lr, lf, lfr, restart'
+echo 'base: ~~, C, D, c, e, q, r, cl, h, hcl, hf, l, ll, lr, lf, lfr'

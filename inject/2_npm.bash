@@ -10,4 +10,4 @@ alias npmlg="npm list -g --depth=0"
 
 alias npms="npm run serve"
 
-echo 'npm [i, id, ig, r, rg, l, lg, s]'
+echo 'npm: npm [i, id, ig, r, rg, l, lg, s]'

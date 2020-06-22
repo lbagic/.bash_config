@@ -7,6 +7,9 @@ alias dstop="docker stop"
 function dstartall { docker start $(docker ps -a -q); }; export -f dstartall
 function dstopall { docker stop $(docker ps -a -q); }; export -f dstopall
 alias drm="docker rm"
+alias drmall="docker system prune"
+alias drmimage="docker image rm"
+alias drmimages="docker image prune"
 
 alias dbuild="docker build -t"
 alias dcreate="docker create"

@@ -1,18 +1,12 @@
 # Installation
 
-Run the following command with proper cfg path.
-Run "apt update", "apt install nodejs" & "code" to install dependencies.
+Modify path to config.bash & run the command.
 
 ```bash
 echo "
-ws="/home/bax/workspace"
-cfg="/home/bax/.bash_config"
-alias ws="cd ${ws}"
-alias cfg="cd ${cfg}"
-
-if [ -d "${cfg}/inject" ] ; then
-    echo "Injecting config..."
-    for f in "${cfg}/inject/"*; do source "$f"; done
+bashcfg="/home/bax/.bash_config/config.bash"
+if [ -f "${bashcfg}" ] ; then
+  source ${bashcfg}
 fi
 " >> ~/.bashrc
 ```

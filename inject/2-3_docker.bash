@@ -15,8 +15,8 @@ function dstopall { docker stop $(docker ps -a -q); }; export -f dstopall
 alias drm="docker rm"
 alias dprune="docker system prune -a"
 
-alias dcomp="docker-compose up"
-alias dcompdown="docker-compose down"
+alias dup="docker-compose up"
+alias ddown="docker-compose down"
 alias ddev="docker-compose -f docker-compose.yml -f docker-compose.development.yml up"
 alias dstage="docker-compose -f docker-compose.yml -f docker-compose.staging.yml up"
 alias dprod="docker-compose -f docker-compose.yml -f docker-compose.production.yml up"

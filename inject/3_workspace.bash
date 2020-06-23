@@ -5,6 +5,8 @@ p="${ws}/projects"
 alias p="cd ${p}"
 s="${ws}/sintezis"
 alias s="cd ${s}"
+skel="${ws}/skel"
+alias skel="cd ${skel}"
 
 digitalnimenu="${p}/digitalnimenu"
 alias digitalnimenu="cd ${digitalnimenu}"

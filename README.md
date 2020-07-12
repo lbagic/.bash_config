@@ -20,6 +20,11 @@ fi
 
 # Misc
 
+## Scaffold workspace
+```
+cd ~; mkdir workspace; mkdir workspace/projects; mkdir workspace/sintezis;
+```
+
 ## Open wsl to ~ (/home/user)
 ```bash
 # windows terminal settings

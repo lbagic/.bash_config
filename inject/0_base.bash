@@ -3,10 +3,11 @@ alias ~~="cd ~"
 alias C="cd /mnt/c"
 alias D="cd /mnt/d"
 
+alias wcode="/mnt/c/Users/bax/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe"
 alias c="code ."
 alias e="explorer.exe ."
 alias q="exit"
-alias r="exec bash"
+alias r="cl; exec bash"
 alias cl="clear"
 
 alias h="history"

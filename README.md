@@ -1,11 +1,13 @@
 # Installation
 
 ## Setup bash config
+
 Run commands (modify echo/append command to point to config):
 
 ```bash
 cd ~; git clone git@github.com:lbzg/.bash_config.git
 ```
+
 ```bash
 echo "
 cfg=/home/bax/.bash_config
@@ -21,11 +23,13 @@ fi
 # Misc
 
 ## Scaffold workspace
+
 ```
 cd ~; mkdir workspace; mkdir workspace/projects; mkdir workspace/sintezis;
 ```
 
 ## Open wsl to ~ (/home/user)
+
 ```bash
 # windows terminal settings
 {
@@ -38,6 +42,12 @@ cd ~; mkdir workspace; mkdir workspace/projects; mkdir workspace/sintezis;
 ```
 
 ## Create SSH key
+
 ```bash
 ssh-keygen -t rsa -b 4096 -C "COMMENT"
 ```
+
+## Map wsl ports to windows (task scheduler)
+
+triggers: logon  
+actions: [program] powershell; [args] -File \\wsl\$\Ubuntu-20.04\home\bax\.bash_config\powershell\forward-wsl.ps1

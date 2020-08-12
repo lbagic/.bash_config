@@ -1,9 +1,6 @@
 #!/bin/bash
-alias gadd="git add ."
-alias gcommit="git commit -m"
-alias gstatus="git status"
-alias gpush="git push"
-alias gpushorigin="git push --set-upstream origin"
-alias gpull="git pull"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gs="git status"
 
-echo 'git: g [add, commit, status, push, pushorigin, pull]'
+echo 'git: ga, gc, gs'

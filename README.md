@@ -10,13 +10,17 @@ cd ~; git clone git@github.com:lbzg/.bash_config.git
 
 ```bash
 echo "
-cfg=/home/bax/.bash_config
-ws=/home/bax/workspace
-
-if [ -d $cfg/inject ] ; then
+# bash config
+cfg=\"/home/\$USER/.bash_config\"
+ws=\"/home/\$USER/workspace\"
+if [ -d \$cfg/inject ] ; then
   echo Injecting config...
-  for f in $cfg/inject/*; do source $f ; done
+  for f in \$cfg/inject/*; do source \$f ; done
 fi
+
+# deno
+export DENO_INSTALL=\"/home/\$USER/.local\"
+export PATH=\"\$DENO_INSTALL/bin:\$PATH\"
 " >> ~/.bashrc
 ```
 

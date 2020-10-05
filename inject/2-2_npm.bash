@@ -9,5 +9,6 @@ alias npml="npm list --depth=0"
 alias npmlg="npm list -g --depth=0"
 
 alias npms="npm run serve"
+alias npmsb="npm run storybook"
 
-echo 'npm: npm [i, id, ig, r, rg, l, lg, s]'
+echo 'npm: npm [i, id, ig, r, rg, l, lg, s, sb]'

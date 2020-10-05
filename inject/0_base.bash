@@ -9,6 +9,7 @@ alias e="explorer.exe ."
 alias q="exit"
 alias r="cl; exec bash"
 alias cl="clear"
+alias pingg="ping www.google.com"
 
 alias h="history"
 alias hcl="history -c"
@@ -20,4 +21,4 @@ alias lr="ls -aFR"
 alias lf="ls -alF | grep"
 alias lfr="ls -alFR | grep"
 
-echo 'base: ~~, C, D, c, e, q, r, cl, h, hcl, hf, l, ll, lr, lf, lfr'
+echo 'base: ~~, C, D, c, e, q, r, cl, pingg, h, hcl, hf, l, ll, lr, lf, lfr'

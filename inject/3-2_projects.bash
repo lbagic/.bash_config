@@ -2,14 +2,12 @@
 digitalnimenu="${p}/digitalnimenu"
 alias digitalnimenu="cd ${digitalnimenu}"
 
-othala="${s}/othala"
-alias othala="cd ${othala}"
 elude="${s}/elude"
 alias elude="cd ${elude}"
+commons="${s}/commons"
+alias commons="cd ${commons}"
 clever="${s}/clever"
 alias clever="cd ${clever}"
-eventomate="${s}/eventomate"
-alias eventomate="cd ${eventomate}"
 
 echo "projects: digitalnimenu"
-echo "sintezis: elude, clever, othala, eventomate"
+echo "sintezis: elude, commons, clever"

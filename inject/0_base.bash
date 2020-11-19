@@ -21,4 +21,4 @@ alias lr="ls -aFR"
 alias lf="ls -alF | grep"
 alias lfr="ls -alFR | grep"
 
-echo 'base: ~~, C, D, c, e, q, r, cl, pingg, h, hcl, hf, l, ll, lr, lf, lfr'
+echo 'base: ~~, C, D, wcode, c, e, q, r, cl, pingg, h, hcl, hf, l, ll, lr, lf, lfr'

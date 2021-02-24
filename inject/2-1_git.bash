@@ -1,5 +1,7 @@
 #!/bin/bash
 alias gs="git status"
 alias gck="git checkout"
+alias gdiff="git diff --shortstat"
+alias gconflicts="git diff --name-only --diff-filter=U"
 
-echo 'git: gs, gck'
+echo 'git: gs, gck, gdiff'

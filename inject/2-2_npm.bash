@@ -1,14 +1,13 @@
 #!/bin/bash
-alias npmi="npm i"
-alias npmid="npm i -D"
-alias npmig="npm i -g"
+alias npmi="npm install"
+alias npmid="npm install --save-dev"
+alias npmig="npm install -g"
 alias npmr="npm uninstall"
 alias npmrg="npm uninstall -g"
-
 alias npml="npm list --depth=0"
 alias npmlg="npm list -g --depth=0"
+alias npmserve="clear; npm run serve"
+alias npmstory="clear; npm run storybook"
+alias npmunit="clear; npm run unit"
 
-alias npms="npm run serve"
-alias npmsb="npm run storybook"
-
-echo 'npm: npm [i, id, ig, r, rg, l, lg, s, sb]'
+echo 'npm: npm [i, id, ig, r, rg, l, lg, serve, story, unit]'

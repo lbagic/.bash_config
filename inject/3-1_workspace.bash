@@ -9,6 +9,8 @@ alias pkg="cd ${pkg}"
 
 p="${ws}/projects"
 alias p="cd ${p}"
+gop="${ws}/projects/go/src/github.com/lbzg"
+alias gop="cd ${gop}"
 s="${ws}/sintezis"
 alias s="cd ${s}"
 

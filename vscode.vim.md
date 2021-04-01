@@ -27,14 +27,14 @@
 - `af` - visual mode command which selects increasingly large blocks of text
 - `gh` - equivalent to hovering your mouse over wherever the cursor is
 
-- `<leader>w` - Move forward to the start of the next Case or snake_case word segment
-- `<leader>e` - Move to the next end of a camelCase or snake_case word segment
-- `<leader>b` - Move back to the prior beginning of a camelCase or snake_case word segment
+- `\w` - Move forward to the start of the next Case or snake_case word segment
+- `\e` - Move to the next end of a camelCase or snake_case word segment
+- `\b` - Move back to the prior beginning of a camelCase or snake_case word segment
 
 ### search
 
-- `<leader><leader>/ <text>` - search text
-- `<leader><leader>s <char>` - search char
+- `\\/<text>` || `/<text>` - search text
+- `\\s<char>` - search char
 - `:s/find/replace/gcI`
 
 ### replace word with copy

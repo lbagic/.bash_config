@@ -34,7 +34,7 @@ cd ~; mkdir workspace; mkdir workspace/projects; mkdir workspace/sintezis;
 ## Create SSH key
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "COMMENT"
+ssh-keygen -t rsa -b 4096 -C "NAME"
 ```
 
 ## Map wsl ports to windows (task scheduler)

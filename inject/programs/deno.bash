@@ -4,4 +4,4 @@ export PATH=$DENO_INSTALL/bin:$PATH
 
 alias denorun="deno run --allow-net"
 
-echo 'deno: [run]'
+echo '[deno]: run'

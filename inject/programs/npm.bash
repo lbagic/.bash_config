@@ -10,4 +10,4 @@ alias npmserve="clear; npm run serve"
 alias npmstory="clear; npm run storybook"
 alias npmunit="clear; npm run unit"
 
-echo 'npm: npm [i, id, ig, r, rg, l, lg, serve, story, unit]'
+echo '[npm]: i, id, ig, r, rg, l, lg, serve, story, unit'

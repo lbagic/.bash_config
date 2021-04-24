@@ -3,6 +3,9 @@
 #   for delete exist rules and ports use 'delete' as parameter, for show ports use 'list' as parameter.
 #   written by Daehyuk Ahn, Aug-1-2020
 
+# You should modify '$Ports' for your applications 
+$Ports = (22,80,443,8080, 8081)
+
 # Display all portproxy information
 If ($Args[0] -eq "list") {
     netsh interface portproxy show v4tov4;
@@ -16,9 +19,6 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
   Start-Process powershell.exe "-File",('"{0}"' -f $MyInvocation.MyCommand.Path),"$Args runas" -Verb RunAs
   exit
 }
-
-# You should modify '$Ports' for your applications 
-$Ports = (22,80,443,8080, 8081)
 
 # Check WSL ip address
 wsl hostname -I | Set-Variable -Name "WSL"

@@ -21,6 +21,9 @@ alias lr="ls -aFR"
 alias lf="ls -alF | grep"
 alias lfr="ls -alFR | grep"
 
+alias chosts="wcode C:/Windows/System32/drivers/etc/hosts"
+alias cssh="code ~/.ssh/id_rsa.pub"
+
 cmd() {
   CMD=$1
   shift;
@@ -28,5 +31,3 @@ cmd() {
   WIN_PWD=`wslpath -w "$(pwd)"`
   cmd.exe /c "pushd ${WIN_PWD} && ${CMD} ${ARGS}"
 }
-
-echo 'base: ~~, C, D, wcode, c, e, q, r, cl, pingg, h, hcl, hf, l, ll, lr, lf, lfr'

@@ -22,4 +22,4 @@ alias dlocal="docker-compose -f docker-compose.yml -f docker-compose.local.yml u
 alias dstage="docker-compose -f docker-compose.yml -f docker-compose.staging.yml up"
 alias dprod="docker-compose -f docker-compose.yml -f docker-compose.production.yml up"
 
-echo 'docker: d [ps, psa, images, networks, volumes, system, start(all), stop(all), rm, prune, up, down, dev, local, stage, prod]'
+echo '[docker/d]: ps, psa, images, networks, volumes, system, start(all), stop(all), rm, prune, up, down, dev, local, stage, prod'

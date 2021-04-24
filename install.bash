@@ -1,12 +1,16 @@
 #!/bin/bash
-
 echo "
 # bash config
 cfg=\"/home/\$USER/.bash_config\"
 ws=\"/home/\$USER/workspace\"
-if [ -d \$cfg/inject ] ; then
-  echo Injecting config...
-  for f in \$cfg/inject/*; do source \$f ; done
-fi
+
+inject_files() {
+    for x in \$1/*; do
+        if [ -f \$x ]; then source \$x; fi
+        if [ -d \$x ]; then inject_files \$x; fi
+    done
+}
+
+inject_files \$cfg/inject
 
 " >> ~/.bashrc

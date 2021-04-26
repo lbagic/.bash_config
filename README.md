@@ -15,7 +15,7 @@ bash .bash_config/install.bash
 ## Scaffold workspace
 
 ```
-cd ~; mkdir workspace; mkdir workspace/projects; mkdir workspace/sintezis;
+cd ~; mkdir -p workspace/projects; mkdir -p workspace/sintezis;
 ```
 
 ## Open wsl to ~ (/home/user)

@@ -18,16 +18,18 @@ Run `vue create {projectName}` and select the following options...
 
 ### Setup linters and formatters
 
-- install [prettier vscode extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- install [eslint vscode extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- install [eslint vetur extension](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- create `.vscode/settings.json` and paste the following code
+- install [prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- install [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- install [vetur extension](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- create `.vscode/settings.json` with the following settings
 
 ```json
 {
   // -------------------------- FORMATTERS --------------------------
+  "files.eol": "\n",
   "editor.tabSize": 2,
-  "editor.insertSpaces": false,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
@@ -51,7 +53,7 @@ Run `vue create {projectName}` and select the following options...
       "trailingComma": "all",
       "printWidth": 80
     }
-  }
+  },
 }
 ```
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 alias dps="docker ps"
 alias dpsa="docker ps -a"
-alias dimages="docker image ls"
-alias dnetworks="docker network ls"
-alias dvolumes="docker volume ls"
-alias dsystem="docker ps -a; docker image ls; docker network ls; docker volume ls"
+alias dimg="docker image ls"
+alias dnet="docker network ls"
+alias dvol="docker volume ls"
+alias dsys="docker ps -a; docker image ls; docker network ls; docker volume ls"
 
 alias dstart="docker start"
 alias dstop="docker stop"

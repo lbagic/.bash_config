@@ -1,7 +1,8 @@
 #!/bin/bash
-alias djmigrate="python3 manage.py migrate"
-alias djserve="python3 manage.py runserver"
-alias djapp="python3 manage.py startapp"
 alias djproject="django-admin startproject"
+alias djapp="python3 manage.py startapp"
+alias djmigrate="python3 manage.py migrate"
+alias djcollect="python3 manage.py collectstatic --no-input"
+alias runserver="python3 manage.py runserver"
 
-echo '[django/dj]: project, app, serve, migrate'
+echo '[django/dj]: project, app, runserver, migrate, collect'

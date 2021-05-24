@@ -1,6 +1,6 @@
 #!/bin/bash
 alias gs="git status"
-alias gck="git checkout"
+alias glog="git log --pretty=%B"
 alias gdiff="git diff --shortstat"
 alias gconflicts="git diff --name-only --diff-filter=U"
 

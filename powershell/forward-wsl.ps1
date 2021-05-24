@@ -4,7 +4,7 @@
 #   written by Daehyuk Ahn, Aug-1-2020
 
 # You should modify '$Ports' for your applications 
-$Ports = (22,80,443,8000,8080,8081)
+$Ports = (22,80,443,8080)
 
 # Display all portproxy information
 If ($Args[0] -eq "list") {

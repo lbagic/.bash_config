@@ -16,16 +16,14 @@ alias stack="cd ${stack}"
 gop="${ws}/projects/go/src/github.com/lbzg"
 alias gop="cd ${gop}"
 
-# Projects /p
+# Projects / personal
 digimeni="${p}/digimeni"
-alias digimeni="cd ${digimeni}"
-# Projects / s
+alias digimeni="cd ${digim`eni}"
+
+# Projects / snt
 sstack="${s}/stack"
 alias sstack="cd ${sstack}"
-elude="${s}/elude"
+elude="${s}/elude/monorepo"
 alias elude="cd ${elude}"
 atc="${s}/auto-tco"
 alias atc="cd ${atc}"
-
-echo "workspace: ws, cfg, p, s, stack"
-echo "projects: elude, digimeni"

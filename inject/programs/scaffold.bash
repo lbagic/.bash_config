@@ -1,0 +1,1 @@
+alias tsinit="npx tsdx create"

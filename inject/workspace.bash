@@ -18,7 +18,7 @@ alias gop="cd ${gop}"
 
 # Projects / personal
 digimeni="${p}/digimeni"
-alias digimeni="cd ${digim`eni}"
+alias digimeni="cd ${digimeni}"
 
 # Projects / snt
 sstack="${s}/stack"
@@ -27,3 +27,5 @@ elude="${s}/elude/monorepo"
 alias elude="cd ${elude}"
 atc="${s}/auto-tco"
 alias atc="cd ${atc}"
+buckley="${s}/buckley"
+alias buckley="cd ${buckley}"

@@ -8,6 +8,4 @@ if [ -d "$HOME/workspace/projects/go/bin" ] ; then
 fi
 
 alias gorun="go run main.go"
-alias gos="./$(basename $PWD) --config=config.toml"
-
-echo '[go]: run'
+alias goservice="./$(basename $PWD) --config=config.toml"

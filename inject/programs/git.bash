@@ -1,7 +1,7 @@
 #!/bin/bash
-alias gs="git status"
-alias glog="git log --pretty=%B"
-alias gdiff="git diff --shortstat"
+alias gs="git status;gdiff"
+alias gb="git branch -a"
+alias gl="git log"
+alias gd="git diff --compact-summary"
+alias gsoftreset="git reset --soft HEAD^"
 alias gconflicts="git diff --name-only --diff-filter=U"
-
-echo '[git/g]: s, ck, diff, conflicts'

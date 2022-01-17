@@ -7,7 +7,7 @@ cd ~; git clone git@github.com:lbzg/.bash_config.git
 ```
 
 ```
-bash .bash_config/install.bash
+bash .bash_config/setup.bash
 ```
 
 # Misc

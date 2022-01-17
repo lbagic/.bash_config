@@ -1,5 +1,5 @@
 #!/bin/bash
-alias gs="git status;gdiff"
+alias gs="git status"
 alias gb="git branch -a"
 alias gl="git log"
 alias gd="git diff --compact-summary"

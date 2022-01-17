@@ -13,4 +13,4 @@ inject_files() {
 
 inject_files \$cfg/inject
 
-" >> ~/.bashrc
+" >> ~/.bash_aliases

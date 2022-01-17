@@ -11,13 +11,13 @@ s="${ws}/sintezis"
 alias s="cd ${s}"
 t="${ws}/test"
 alias t="cd ${t}"
-stack="${ws}/stack"
+stack="${ws}/stack/vue"
 alias stack="cd ${stack}"
 gop="${ws}/projects/go/src/github.com/lbzg"
 alias gop="cd ${gop}"
 
 # Projects / personal
-digimeni="${p}/digimeni"
+digimeni="${p}/digimeni-project/digimeni"
 alias digimeni="cd ${digimeni}"
 
 # Projects / snt

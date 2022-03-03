@@ -22,7 +22,8 @@ alias lf="ls -alF | grep"
 alias lfr="ls -alFR | grep"
 
 alias chosts="wcode C:/Windows/System32/drivers/etc/hosts"
-alias cssh="code ~/.ssh/id_rsa.pub"
+alias cathosts="cat /mnt/c/Windows/System32/drivers/etc/hosts"
+alias cssh="code ~/.ssh/"
 
 cmd() {
   CMD=$1

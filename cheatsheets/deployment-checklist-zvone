@@ -1,0 +1,23 @@
+# common
+sudo useradd -s /bin/bash -o -u `id -u` -g `id -g` <username>
+sudo useradd -s /bin/bash nginx
+
+# specify root user
+sudo mkdir /home/<username>
+chown <username>:<group> /home/<username>
+
+# copy SSH, Bash and Profile from existing user
+sudo cp -rp /home/<existing_user>/.ssh ~<username>/
+sudo cp /home/<existing_user>/.bashrc ~<username>/
+sudo cp /home/<existing_user>/.profile ~<username>/
+
+# add user public key to authorized hosts
+cat <username>.pub >> /home/<username>/.ssh/authorized_keys
+
+
+- create user
+- setup ssh
+- remove root login
+- chown www-data on html folder
+- d/l nginx
+- send site to google to scrape it

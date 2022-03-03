@@ -30,14 +30,3 @@ cd ~; mkdir -p workspace/projects; mkdir -p workspace/sintezis;
     "commandline": "wsl.exe ~" # <-- add setting
 },
 ```
-
-## Create SSH key
-
-```bash
-ssh-keygen -t rsa -b 4096 -C "NAME"
-```
-
-## Map wsl ports to windows (task scheduler)
-
-triggers: logon  
-actions: [program] powershell; [args] -File \\\wsl\$\Ubuntu-20.04\home\bax\\.bash_config\powershell\forward-wsl.ps1
